@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+}
+
+body {
+    background-image: url(https://images5.alphacoders.com/110/1107810.jpg);
+    background-position: center;
+    background-attachment: fixed;    	
+    background-size: cover;
+}
+
+.card {
+    box-shadow: 0 15px 30px 1px grey;
+    background-image: linear-gradient(to bottom, #85cbc6ca,#e394add8 );
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    border-radius: 10%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+img {
+    border-radius: 50%;
+    position: relative;
+    height: 50%;
+	width: 50%;
+    top: 20px;
+    outline: auto;
+    outline-color: rgb(5, 5, 5);
+}
+
+.name {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+.info {
+    font-family: 'Comfortaa', cursive;
+    font-size: 100%;
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+.card {
+    outline: auto;
+    outline-offset: 5px;
+    outline-color: #000000;
+}
